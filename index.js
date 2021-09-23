@@ -35,7 +35,7 @@ function quiz (question,options,answer){
   }
 }
 
- let questions = [
+let questions = [
   {
     "question": " Que.1 What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?",
     "options": " a) 45°\n b) 90°\n c)  60° \n d)  30° \n",
@@ -55,6 +55,11 @@ function quiz (question,options,answer){
     "question": " Que 4.Which of the following triangles are always similar? \n", 
     "options": " a) Equilateral triangle \n b) scalene triangle  \n",
     "answer": "a"
+  },
+  {
+    "question": " Que 5.A triangle can have \n", 
+    "options": " a)  one right angle \n b)  two right angle  \n",
+    "answer": "b"
   },
   ]
 function playQuiz() {
